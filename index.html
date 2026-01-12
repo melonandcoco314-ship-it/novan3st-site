@@ -12,13 +12,13 @@
     <div class="container">
       <div class="nav">
         <a class="brand" href="index.html">
-          <div class="logo" aria-hidden="true"></div>
+          <!-- LOGO (replaces the old placeholder div.logo) -->
+          <img class="site-logo" src="assets/images/logo-64.png" alt="NovaN3st LLC logo">
           <div>
             NovaN3st LLC<br>
             <span>Independent Category Intelligence</span>
           </div>
         </a>
-
 
         <div class="navlinks">
           <a href="collections.html">Collections</a>
@@ -37,7 +37,7 @@
 
   <div class="container hero">
     <div class="hero-grid">
-      <div class="panel hero-left reveal">
+      <div class="panel hero-left reveal from-left">
         <div class="kicker">NovaN3st LLC</div>
         <div class="h1">Simple guides.<br>Clear categories.<br>Fast decisions.</div>
         <p class="sub">
@@ -49,7 +49,7 @@
         </div>
       </div>
 
-      <div class="panel hero-right reveal delay-1">
+      <div class="panel hero-right reveal from-right delay-1">
         <div class="stat">
           <strong>Clean structure</strong>
           <span>Category hubs with clear navigation and minimal clutter.</span>
@@ -71,9 +71,10 @@
     <div class="section reveal" id="collections">
       <h2>Collections</h2>
 
-      <div class="grid">
+      <div class="grid stack">
         <a class="card reveal" href="categories/grocery/index.html">
-          <img src="../../assets/images/grocery.png">
+          <!-- FIXED PATH: was ../../assets/... now assets/... -->
+          <img class="card-img" src="assets/images/grocery.png" alt="Collection - Grocery & Gourmet">
           <div class="tag">Collection · Grocery & Gourmet</div>
           <h3>Grocery & Gourmet</h3>
           <p>Pantry basics, labels, storage, and practical buying considerations—organized into short, useful reads.</p>
@@ -81,7 +82,7 @@
         </a>
 
         <a class="card reveal delay-1" href="categories/office-supplies/index.html">
-          <img src="../../assets/images/office.png">
+          <img class="card-img" src="assets/images/office.png" alt="Collection - Office Supplies">
           <div class="tag">Collection · Office Supplies</div>
           <h3>Office Supplies</h3>
           <p>Paper, labels, organization, and productivity essentials—clear comparisons without unnecessary jargon.</p>
@@ -89,7 +90,7 @@
         </a>
 
         <a class="card reveal delay-2" href="categories/home-improvement/index.html">
-          <img src="../../assets/images/home.png">
+          <img class="card-img" src="assets/images/home.png" alt="Collection - Home Improvement">
           <div class="tag">Collection · Home Improvement</div>
           <h3>Home Improvement</h3>
           <p>Tools, hardware, safety basics, and project planning—structured to help you pick what matters.</p>
@@ -98,7 +99,7 @@
       </div>
     </div>
 
-    <div class="section reveal delay-1">
+    <div class="section reveal from-left delay-1">
       <h2>Quick links</h2>
       <div class="split">
         <div class="card reveal">
@@ -116,11 +117,11 @@
       </div>
     </div>
 
-
     <div class="footer">
       <div class="row">
         <div class="brand">
-          <div class="logo" aria-hidden="true"></div>
+          <!-- LOGO IN FOOTER -->
+          <img class="site-logo" src="assets/images/logo-64.png" alt="NovaN3st LLC logo">
           <div>NovaN3st LLC<br><span class="small">© <span data-year></span></span></div>
         </div>
         <div class="pill small">
